@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+/* CSS Document */
+ 
+*{ margin:0; padding:0; border:0; list-style:none;}
+body{ width:950px; background:#e5eefd; margin:0 auto;}
+.top{ width:950px; height:100px; background:url(images/top.jpg) no-repeat 0 0px;}
+.top .wenben{ width:197px; height:25px; line-height:25px; border: #FFF2px solid; float:right; margin:30px 30px 0 0; background:#f8e6e0; padding-left:3px}
+.top .sousu{ float:right; width:50px; height:24px; line-height:20px; font-family:"微软雅黑"; font-size:14px; border:#e27f5b 1px solid; margin:32px 10px 0 0; background: #FFF;}
+.nav{ width:950px; height:40px; background:#005ebf;}
+.nav ul li{ width:100px; height:40px; float:left; font-family:"微软雅黑"; font-size:14px; line-height:40px; text-align:center; margin:0px 20px; color:#FFFFFF;} 
+.nav a{ text-decoration:none; color:#FFF;}
+.nav ul li a:hover{ width:100px; height:40px; line-height:40px;  background:#dc581d; display:block;}
+
+.nr_z{ width:950px; background:#FFF;}
+.nr{ width:910px; height:1000px; padding:20px;}
+.nr ul{}
+.nr .tu img{ width:290px; margin-right:20px; float:left;}
+.nr .wenzi{ height:300px; float:left; width:595px;}
+.nr .wenzi p{ width:595px; line-height:20px; font-family:"微软雅黑"; font-size:14px; }
+.nr .wenzi h3{ font-family:"微软雅黑"; font-size:16px;  height:35px; line-height:35px; width:585px; background:#cce9ff; padding-left:10px; margin-bottom:10px;}
+
+.nr .tu2{ width:300px; float:right;}
+
+.nr .meitu{ height:370px; float:left; width:910px;}
+.nr .meitu h3{ font-family:"微软雅黑"; font-size:16px;  height:35px; line-height:35px; width:900px; background:#cce9ff; padding-left:10px; margin-bottom:10px;}
+.meitu a{ float:right; margin-right:20px; color:#000000; text-decoration:none;}
+.nr .meitu span{ float:left;}
+.nr .meitu img{ float:left;}
+.nr .meitu .meitu2{ float:right; width:320px; height:295px; margin-left:10px;}
+
+.banquan{ width:950; height:40px; background: #e5eefd;}
+.banquan p{font-family:"微软雅黑"; font-size:12px; line-height:40px; text-align:center;}
+
+
+
+
+
+
+
+.wenzhang_nr{ width:950px; background:#f9f0eb;}
+.wenzhang_nr .fnav{ padding:10px;}
+.wenzhang_nr .fnav p{font-family:"微软雅黑"; font-size:14px; line-height:25px; color: #460000;}
+.wenzhang{ width:800px; height:700px; margin:0 auto;}
+.wenzhang h3{ text-align:center; color: #900; margin-bottom:10px;}
+.wenzhang p{ font-family:"微软雅黑"; font-size:15px; line-height:25px;}
+.wenzhang_nr .xia{ float:right; padding:10px;}
+.wenzhang_nr .xia p{font-family:"微软雅黑"; font-size:14px; line-height:25px; color: #460000;}
+
+
+
+.wenzhang_nr2{ width:950px; background:#f9f0eb;}
+.wenzhang_nr2 .fnav{ padding:10px;}
+.wenzhang_nr2 .fnav p{font-family:"微软雅黑"; font-size:14px; line-height:25px; color: #460000;}
+.wenzhang2{ width:800px; margin:0 auto; padding-bottom:100px;}
+.wenzhang2 h3{ text-align:center; color: #900; margin-bottom:10px;}
+.wenzhang2 p{ font-family:"微软雅黑"; font-size:15px; line-height:25px;}
+.wenzhang_nr2 .xia{ float:right; padding:10px;}
+.wenzhang_nr2 .xia p{font-family:"微软雅黑"; font-size:14px; line-height:25px; color: #460000;}
+
+
+.xiangce{width:950px; height:1100px; margin:0 auto;}
+.xiangce ul{}
+.xiangce ul img{ width:300px; height:200px;}
+.xiangce ul li{ float:left; margin:5px; border:1px solid #e6c7ae;width:304px; height:202px; text-align:center; padding-top:2px;}
+.xiangce ul img:hover{ border:2px solid  #cf8750;}
+
+
+
+
+.rizhi{width:800px;  margin:0 auto; padding-bottom:50px;}
+.rizhi ul {border:1px solid #e6c7ae; padding:10px 20px; }
+.rizhi ul li{ border-bottom:1px #e6c7ae dashed; list-style:none; font-family:"微软雅黑"; font-size:14px; line-height:38px; color: #333;}
+.rizhi ul li a{ color: #030; text-decoration:none;}
+.rizhi ul li a:hover{ text-decoration: underline; color:#990000;}
+.rizhi ul span{ float:right;list-style:none; font-family:"微软雅黑"; font-size:12px; line-height:38px; color: #333;}
+
+.rizhi_tu{ width:950px; height:200px; background:#f9f0eb;}
+.rizhi_tu ul{}
+.rizhi_tu ul li{ float:left; margin-left:10px; border:2px solid #f6e7e0;}
+.rizhi_tu ul img{ width:220px; height:152px;}
+
+
+
+
+
+
+.yinyue{ width:950px; margin:0 auto; background:#FFF}
+.yinyue p{ text-align:center;font-family:"微软雅黑"; font-size:16px; line-height:26px; color: #300;}
+.yinyue .geci{ width:500px; text-align:center; margin:0 auto; font-family:"微软雅黑"; font-size:14px; line-height:26px; padding-bottom:30px; color:#660000;}
+
+
+.luiyanban{ width:950px; background:f9f0eb;}
+.chongzhi{ width:50px; height:25px; border:#CCCCCC 1px solid; border-radius:5px; background:#e8e6e5; margin:10px;}
+.luiyanban{ width:500px; margin:0 auto; padding-bottom:450px;}
+.luiyanban_z .xingbei{ margin:10px; }
+.luiyanban_z .xingqu{ margin:10px;}
+.luiyan{ width:495px; height:150px; border:#dcc6ba 1px solid; padding:5px; }
+
+
+.dk img{ width:250px; height:204px; margin:15px; margin-top:0px;}
+.dk{ font-size:14px; line-height:30px; padding-bottom:50px;}
+.dk p{ margin-top:15px;}
+
+
+
+
+
